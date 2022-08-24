@@ -1,0 +1,6 @@
+﻿  main.cpp
+  NavMeshRenderer.cpp
+  Generating Code...
+Common.lib(Camera.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static float __cdecl sf::Joystick::getAxisPosition(unsigned int,enum sf::Joystick::Axis)" (__imp_?getAxisPosition@Joystick@sf@@SAMIW4Axis@12@@Z) referenced in function "public: void __cdecl NCL::Camera::UpdateCamera_TPS(float,class NCL::Maths::Vector3 const &,int)" (?UpdateCamera_TPS@Camera@NCL@@QEAAXMAEBVVector3@Maths@2@H@Z)
+Common.lib(Camera.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl sf::Joystick::update(void)" (__imp_?update@Joystick@sf@@SAXXZ) referenced in function "public: void __cdecl NCL::Camera::UpdateCamera_TPS(float,class NCL::Maths::Vector3 const &,int)" (?UpdateCamera_TPS@Camera@NCL@@QEAAXMAEBVVector3@Maths@2@H@Z)
+C:\Users\tonyk\source\repos\Spitoon\x64\Debug\NavMeshVisualiser.exe : fatal error LNK1120: 2 unresolved externals

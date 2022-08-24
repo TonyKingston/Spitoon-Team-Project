@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\GUI.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\backends\imgui_impl_glfw.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\backends\imgui_impl_opengl3.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\backends\imgui_impl_win32.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\imconfig.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\imgui.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\imgui_internal.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\imstb_rectpack.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\imstb_textedit.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\tonyk\source\repos\Spitoon\UI\ImGui\imstb_truetype.h</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

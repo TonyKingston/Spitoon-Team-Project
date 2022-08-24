@@ -1,0 +1,54 @@
+{
+	"collision" : 
+	{
+		"barycentre" : 
+		{
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0
+		},
+		"halfExtents" : 
+		{
+			"x" : 12.5,
+			"y" : 12.5,
+			"z" : 12.5
+		},
+		"halfHeight" : 0.0,
+		"radius" : 0.0,
+		"type" : "Box"
+	},
+	"physics" : 
+	{
+		"dFriction" : 0.0,
+		"isKinematic" : false,
+		"isStatic" : false,
+		"restitution" : 0.0,
+		"sFriction" : 0.0
+	},
+	"rend" : 
+	{
+		"material" : "Coconut_Palm_Tree01.mat",
+		"mesh" : "Cube.msh"
+	},
+	"trans" : 
+	{
+		"orientation" : 
+		{
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 0.0
+		},
+		"position" : 
+		{
+			"x" : 50.0,
+			"y" : 50.0,
+			"z" : 50.0
+		},
+		"scale" : 
+		{
+			"x" : 25.0,
+			"y" : 25.0,
+			"z" : 25.0
+		}
+	}
+}

@@ -1,0 +1,24 @@
+﻿  glad.c
+  OGLComputeShader.cpp
+  OGLMesh.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  OGLRenderer.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLRenderer.cpp(312,51): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLRenderer.cpp(336,52): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  OGLResourceManager.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLResourceManager.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  OGLShader.cpp
+  OGLTexture.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  OpenGLRendering.vcxproj -> C:\Users\tonyk\source\repos\Spitoon\x64\Release\OpenGLRendering.lib

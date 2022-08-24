@@ -1,0 +1,85 @@
+﻿  Camera.cpp
+  Frustum.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\RenderObject.h(14): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  Maths.cpp
+  MeshAnimation.cpp
+  MeshGeometry.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  MeshMaterial.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.cpp(48,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(9): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshAnimation'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(11): message : see declaration of 'NCL::MeshAnimation'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(28): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshAnimation *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshAnimation *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshAnimation *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshAnimation *>>>
+          ]
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::Rendering::ShaderBase'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(20): message : see declaration of 'NCL::Rendering::ShaderBase'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(31): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::Rendering::ShaderBase *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::Rendering::ShaderBase *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::Rendering::ShaderBase *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::Rendering::ShaderBase *>>>
+          ]
+  Mouse.cpp
+  NCLMatrix2.cpp
+  NCLMatrix3.cpp
+  NCLMatrix4.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  NCLVector2.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  NCLVector3.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  NCLVector4.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Plane.cpp
+  Quaternion.cpp
+  RendererBase.cpp
+  SimpleFont.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Win32Keyboard.cpp
+  Win32Mouse.cpp
+  Win32Window.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(19,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(19,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(145,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(145,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(145,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(145,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(149,24): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(150,25): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(151,21): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\Win32Window.cpp(152,21): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  Compiling...
+  Window.cpp
+  Common.vcxproj -> C:\Users\tonyk\source\repos\Spitoon\x64\Release\Common.lib

@@ -1,0 +1,22 @@
+{
+  "scale": {
+    "x": 20,
+    "y": 20,
+    "z": 20
+  },
+
+  "position": {
+    "x": 20,
+    "y": 20,
+    "z": 20
+  },
+
+  "radius": 10,
+
+  "HalfHeight": 20,
+
+  "type": "Capsule",
+
+  "inverseMass" :  "10.5"
+
+}

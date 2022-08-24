@@ -1,0 +1,189 @@
+﻿  Audio.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\Audio.cpp(27,23): warning C4101: 'version': unreferenced local variable
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\RigidBody.h(15): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  CharacterController.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CharacterController.cpp(120,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CharacterController.cpp(230,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLRenderer.h(29): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  CourseworkGame.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(360,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(806,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(811,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(816,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(821,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(826,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(831,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(836,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(841,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(846,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(851,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(856,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(861,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(866,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(871,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(876,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(881,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(886,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(891,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(896,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(901,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(906,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(911,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(925,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(930,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(935,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(940,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(945,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(950,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(955,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(960,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(1286,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(1319,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(1460,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\Network_Code.h(133,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(95): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator <<<sPlayerDescription>(NCL::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=sPlayerDescription
+          ]
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(95): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator <<<sPlayerDescription>(NCL::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=sPlayerDescription
+          ]
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\Network_Code.h(156,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(103): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator >><uint32_t>(NCL::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=uint32_t
+          ]
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CourseworkGame.cpp(103): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator >><uint32_t>(NCL::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=uint32_t
+          ]
+  DebugMenu.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\DebugMenu.cpp(29,36): warning C4305: '=': truncation from 'double' to 'float'
+  GamePushDownState_UI.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\GamePushDownState_UI.cpp(158,56): warning C4244: 'argument': conversion from 'const int' to 'const float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\GamePushDownState_UI.cpp(161,60): warning C4244: 'argument': conversion from 'const int' to 'const float', possible loss of data
+  GamePushdownState.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+  GameTechRenderer.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\GameTechRenderer.cpp(414,33): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\GameTechRenderer.cpp(747,33): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\GameTechRenderer.cpp(902,33): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  JsonHandler.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+  Main.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\Main.cpp(93,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PauseMenu.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\PauseMenu.cpp(25,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\PauseMenu.cpp(28,71): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\PauseMenu.cpp(29,75): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\PauseMenu.cpp(30,74): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\PauseMenu.cpp(34,70): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\PauseMenu.cpp(35,75): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\PauseMenu.cpp(36,74): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\Main.cpp(124): warning C4715: 'FMOD_Main': not all control paths return a value
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26): warning C4172: returning address of local variable or temporary
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\GameTech\CharacterController.cpp(345): warning C4715: 'NCL::CharacterController::isGrounded': not all control paths return a value
+PhysXExtensions_static_64.lib(ExtD6Joint.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtD6Joint.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtDistanceJoint.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtDistanceJoint.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtContactJoint.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtContactJoint.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtPrismaticJoint.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtPrismaticJoint.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtRevoluteJoint.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtRevoluteJoint.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtRigidBodyExt.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtRigidBodyExt.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtSphericalJoint.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtSphericalJoint.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(PxExtensionAutoGeneratedMetaDataObjects.obj) : warning LNK4099: PDB '' was not found with 'PhysXExtensions_static_64.lib(PxExtensionAutoGeneratedMetaDataObjects.obj)' or at ''; linking object as if no debug info
+PhysXExtensions_static_64.lib(SnXmlSerialization.obj) : warning LNK4099: PDB '' was not found with 'PhysXExtensions_static_64.lib(SnXmlSerialization.obj)' or at ''; linking object as if no debug info
+PhysXExtensions_static_64.lib(SnConvX_Convert.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(SnConvX_Convert.obj)' or at 'C:\Users\tonyk\source\repos\Spitoon\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+  GameTech.vcxproj -> C:\Users\tonyk\source\repos\Spitoon\x64\Debug\GameTech.exe

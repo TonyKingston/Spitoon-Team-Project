@@ -1,0 +1,11 @@
+prefix=D:/CSC8508/jsoncpp-lib
+exec_prefix=D:/CSC8508/jsoncpp-lib
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 1.9.5
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}

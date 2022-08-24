@@ -1,0 +1,549 @@
+[
+{
+  "trans": {
+    "position": {
+      "x": -35.0,
+      "y": 8.0,
+      "z": -10.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 40.0,
+      "y": 1.0,
+      "z": 70.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": 25.0,
+      "y": 0.0,
+      "z": 20.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 20.0,
+      "y": 1.0,
+      "z": 40.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -3.61000061,
+      "y": 4.02,
+      "z": -41.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 341.3
+    },
+    "scale": {
+      "x": 25.0000019,
+      "y": 1.0,
+      "z": 8.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -35.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 10.0,
+      "y": 1.0,
+      "z": 20.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -60.0,
+      "y": 0.0,
+      "z": 30.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 10.0,
+      "y": 1.0,
+      "z": 40.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -60.0,
+      "y": 4.0,
+      "z": -2.0
+    },
+    "orientation": {
+      "x": -18.0000057,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 10.0,
+      "y": 1.0,
+      "z": 26.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 30.0,
+      "y": 1.0,
+      "z": 50.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": 41.0,
+      "y": 0.0,
+      "z": 88.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 39.0,
+      "y": 1.0,
+      "z": 25.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -78.0,
+      "y": 0.0,
+      "z": 88.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 39.0,
+      "y": 1.0,
+      "z": 25.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -18.5146027,
+      "y": 0.0,
+      "z": 88.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 80.0,
+      "y": 1.0,
+      "z": 40.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -60.0,
+      "y": 8.0,
+      "z": -19.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 10.0,
+      "y": 1.0,
+      "z": 10.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -20.0,
+      "y": 0.0,
+      "z": 37.5
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 70.0,
+      "y": 1.0,
+      "z": 25.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+},{
+  "trans": {
+    "position": {
+      "x": -18.5146027,
+      "y": 0.0,
+      "z": 59.0
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 30.0,
+      "y": 1.0,
+      "z": 18.0
+    }
+  },
+  "rend": {
+    "mesh": "cube.msh",
+    "material": "Corridor_Floor_Basic.mat"
+  },
+  "collision": {
+    "type": "box",
+    "barycentre": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "halfExtents": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    }
+  },
+  "physics": {
+    "isStatic": true,
+    "isKinematic": false,
+    "sFriction": 0.6,
+    "dFriction": 0.6,
+    "restitution": 0.0
+  }
+}
+]

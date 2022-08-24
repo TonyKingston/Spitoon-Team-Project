@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Team7 Real Game\glfw\CMakeFiles\c56f5dddfc1ed0d77f44a49654469c11\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Team7 Real Game\glfw\glfw-3.3.6\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Team7 Real Game\glfw\glfw-3.3.6\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\Team7 Real Game\glfw\glfw-3.3.6\CMake\GenerateMappings.cmake" />
+    <None Include="E:\Team7 Real Game\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4953B279-7148-3189-9CF8-150E3C1976CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{92B0D6E0-EE17-3E80-B562-8D7B2D5F3C63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

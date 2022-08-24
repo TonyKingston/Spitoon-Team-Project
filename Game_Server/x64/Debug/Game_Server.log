@@ -1,0 +1,28 @@
+﻿  Server_main.cpp
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Network_Code.h(132,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(59): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator <<<unsigned int>(NCL::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=unsigned int
+          ]
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(59): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator <<<unsigned int>(NCL::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=unsigned int
+          ]
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Network_Code.h(155,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(73): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator >><sPlayerDescription>(NCL::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=sPlayerDescription
+          ]
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(73): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator >><sPlayerDescription>(NCL::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=sPlayerDescription
+          ]
+  Game_Server.vcxproj -> C:\Users\tonyk\source\repos\Spitoon\x64\Debug\Game_Server.exe

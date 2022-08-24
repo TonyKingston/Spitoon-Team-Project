@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E44E70A1-9FE8-3D5E-B626-2C0A1E17F630}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Team7 Real Game\glfw\glfw-3.3.6\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Team7 Real Game/glfw/glfw-3.3.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe "-SE:/Team7 Real Game/glfw/glfw-3.3.6" "-BE:/Team7 Real Game/glfw" --check-stamp-file "E:/Team7 Real Game/glfw/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;E:\Team7 Real Game\glfw\glfw-3.3.6\cmake_uninstall.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3.pc.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3Config.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw_config.h.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeDependentOption.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckIncludeFile.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckLibraryExists.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindDoxygen.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindThreads.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\GNUInstallDirs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Team7 Real Game\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Team7 Real Game/glfw/glfw-3.3.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe "-SE:/Team7 Real Game/glfw/glfw-3.3.6" "-BE:/Team7 Real Game/glfw" --check-stamp-file "E:/Team7 Real Game/glfw/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;E:\Team7 Real Game\glfw\glfw-3.3.6\cmake_uninstall.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3.pc.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3Config.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw_config.h.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeDependentOption.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckIncludeFile.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckLibraryExists.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindDoxygen.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindThreads.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\GNUInstallDirs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Team7 Real Game\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Team7 Real Game/glfw/glfw-3.3.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe "-SE:/Team7 Real Game/glfw/glfw-3.3.6" "-BE:/Team7 Real Game/glfw" --check-stamp-file "E:/Team7 Real Game/glfw/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;E:\Team7 Real Game\glfw\glfw-3.3.6\cmake_uninstall.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3.pc.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3Config.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw_config.h.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeDependentOption.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckIncludeFile.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckLibraryExists.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindDoxygen.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindThreads.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\GNUInstallDirs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Team7 Real Game\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Team7 Real Game/glfw/glfw-3.3.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\bin\cmake.exe "-SE:/Team7 Real Game/glfw/glfw-3.3.6" "-BE:/Team7 Real Game/glfw" --check-stamp-file "E:/Team7 Real Game/glfw/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeRCCompiler.cmake;E:\Team7 Real Game\glfw\CMakeFiles\3.23.0-rc1\CMakeSystem.cmake;E:\Team7 Real Game\glfw\glfw-3.3.6\cmake_uninstall.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3.pc.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw3Config.cmake.in;E:\Team7 Real Game\glfw\glfw-3.3.6\src\glfw_config.h.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeDependentOption.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckIncludeFile.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\CheckLibraryExists.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindDoxygen.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\FindThreads.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\GNUInstallDirs.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\cmake-3.23.0-rc1-windows-x86_64\cmake-3.23.0-rc1-windows-x86_64\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Team7 Real Game\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\ZERO_CHECK.vcxproj">
+      <Project>{9500D3B0-62A7-367D-B466-3A647599B512}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\boing.vcxproj">
+      <Project>{E6B72182-3C68-37B2-AAFC-BF521EEEB82C}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\clipboard.vcxproj">
+      <Project>{F9B32588-9EB3-3D55-86D0-0AFDFF0D1CD9}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\cursor.vcxproj">
+      <Project>{9A351860-523A-3131-B6AF-6DD04D5E3818}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\empty.vcxproj">
+      <Project>{68808275-8104-3634-95E3-BF5B1774AAE3}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\events.vcxproj">
+      <Project>{BEDFDF88-48DF-31B3-AE66-27378EF5C5DF}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\gamma.vcxproj">
+      <Project>{B91D0AB2-065B-3103-8F7E-0E53A785A2C8}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\gears.vcxproj">
+      <Project>{7C818D64-81F5-3033-A873-C6FDE482E06D}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\src\glfw.vcxproj">
+      <Project>{24305EF4-CF2D-3683-A414-3D6CD25633C2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\glfwinfo.vcxproj">
+      <Project>{AC6D5E67-E970-362D-8741-E1B6B6E8343D}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\heightmap.vcxproj">
+      <Project>{3109E9F3-29B9-3BDB-9C89-917A2C0A4E27}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\icon.vcxproj">
+      <Project>{65BD037F-BE6F-35A1-94DF-8120BBCD186B}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\iconify.vcxproj">
+      <Project>{E43BEDFE-5331-3248-83A5-A391E0292099}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\inputlag.vcxproj">
+      <Project>{F30631F5-399B-3677-A9AC-89DADAC557D8}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\joysticks.vcxproj">
+      <Project>{D496C73E-1C8C-392E-AD32-AB14FEAFA6D3}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\monitors.vcxproj">
+      <Project>{AA013D36-7E19-3691-A71C-EE62A2DEE055}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\msaa.vcxproj">
+      <Project>{0863AD0D-FB26-3F4C-B10D-4D227DDF6324}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\offscreen.vcxproj">
+      <Project>{23A4A63A-7E6A-3FF0-B60F-7CEC03C0A420}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\opacity.vcxproj">
+      <Project>{183E335F-73BF-3755-A025-7D53AE9BC1C9}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\particles.vcxproj">
+      <Project>{A2B0397D-BFAB-3E9B-B0E9-F24127F815E4}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\reopen.vcxproj">
+      <Project>{DF597743-0D02-3049-B72F-C6E173C1F501}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\sharing.vcxproj">
+      <Project>{108AB718-176D-39EC-868D-332253D58762}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\simple.vcxproj">
+      <Project>{62DC5185-02C9-3B0C-818A-1A73F1AE8269}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\splitview.vcxproj">
+      <Project>{35664318-AAC5-33E7-8B80-76BB27F7D6F0}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\tearing.vcxproj">
+      <Project>{13BA7FA7-96C2-32E6-B445-C5CE518EA93F}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\threads.vcxproj">
+      <Project>{B36042F0-5A84-37B9-9223-FF545825B14E}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\timeout.vcxproj">
+      <Project>{B58A4671-30EC-39EC-B4E2-38276078712A}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\title.vcxproj">
+      <Project>{AD29BC1D-4480-3C75-83A7-1A526F5EAD89}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\triangle-vulkan.vcxproj">
+      <Project>{29A461DA-4EDA-3EE1-BEEB-AFD17EEDACFA}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\examples\wave.vcxproj">
+      <Project>{A684C4B2-2C7E-36FA-8305-710F68D464F2}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Team7 Real Game\glfw\tests\windows.vcxproj">
+      <Project>{55074929-E6AB-36FD-8595-96A6CC75B900}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

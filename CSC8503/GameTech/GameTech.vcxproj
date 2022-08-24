@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ORBIS">
+      <Configuration>Debug</Configuration>
+      <Platform>ORBIS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ORBIS">
+      <Configuration>Release</Configuration>
+      <Platform>ORBIS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{86B67DBB-8D8A-4B90-9383-A95C534E2A01}</ProjectGuid>
+    <RootNamespace>GameTech</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <PlatformToolset>Clang</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <PlatformToolset>Clang</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>D:\CSC8508\CSC8508main\libs\JSON\Debug;$(SolutionDir)FMOD/lib/x64;$(SolutionDir)$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\CSC8508\CSC8508main\include\json;$(SolutionDir)FMOD/inc;$(SolutionDir)\Plugins\OpenGLRendering;$(SolutionDir)\Plugins\Networking-ENet\include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(SolutionDir)FMOD/lib/x64;</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(SolutionDir)$(Platform)\$(Configuration)\;$(LibraryPath);$(SolutionDir)FMOD\lib\x64;C:\Dev\Spitoon\FMOD\lib\x64</LibraryPath>
+    <IncludePath>$(SolutionDir)include/ASIO/include;$(SolutionDir)FMOD/inc;$(SolutionDir)\Plugins\OpenGLRendering;$(SolutionDir)\Plugins\Networking-ENet\include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(SolutionDir)FMOD/lib/x64;</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(SolutionDir)FMOD/lib/x64;$(SolutionDir)\$(Platform)\$(Configuration)\;$(SolutionDir)libs\PhysX\$(Platform)\$(Configuration)\;$(SolutionDir)\libs\JSON\$(Configuration);$(SolutionDir)\libs\UI;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)FMOD/lib/x64;$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)libs\PhysX\$(Configuration)\;$(SolutionDir)\libs\JSON\$(Configuration);$(SolutionDir)\libs\UI;$(LibraryPath);$(SolutionDir)SFML-2.5.1/bin</LibraryPath>
+    <IncludePath>$(SolutionDir)FMOD/inc;$(SolutionDir)\Plugins\OpenGLRendering;$(SolutionDir)include\PhysX;$(SolutionDir)\Plugins\Networking-ENet\include;$(SolutionDir)\include\json;$(SolutionDir)\include\UI\include;$(IncludePath)</IncludePath>
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(SolutionDir)FMOD/lib/x64;$(SolutionDir)SFML-2.5.1/bin</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(SolutionDir)\libs\JSON\Release;$(SolutionDir)FMOD/lib/x64;$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)libs\PhysX\$(Platform)\$(Configuration)\;$(SolutionDir)\libs\UI;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\include\json;$(SolutionDir)FMOD/inc;$(SolutionDir)\Plugins\OpenGLRendering;$(SolutionDir)\Plugins\Networking-ENet\include;$(SolutionDir)include\PhysX\;$(SolutionDir)include\ASIO\include;$(SolutionDir)\include\UI\include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(SolutionDir)FMOD/lib/x64;</ReferencePath>
+    <LibraryPath>$(SolutionDir)\libs\JSON\Release;$(SolutionDir)FMOD/lib/x64;$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)libs\PhysX\$(Configuration)\;$(LibraryPath);$(SolutionDir)SFML-2.5.1/bin</LibraryPath>
+    <IncludePath>$(SolutionDir)\include\json;$(SolutionDir)FMOD/inc;$(SolutionDir)\Plugins\OpenGLRendering;$(SolutionDir)\Plugins\Networking-ENet\include;$(SolutionDir)include\PhysX\;$(SolutionDir)include\ASIO\include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(SolutionDir)FMOD/lib/x64;$(SolutionDir)SFML-2.5.1/bin</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <IncludePath>$(SolutionDir)include\PhysX;$(SolutionDir)\Plugins\Networking-ENet\include;$(SolutionDir)\include\json;$(IncludePath);$(SCE_ORBIS_SDK_DIR)\host_tools\lib\clang\include;$(SCE_ORBIS_SDK_DIR)\target\include;$(SCE_ORBIS_SDK_DIR)\target\include_common;$(SolutionDir)\Plugins\PlayStation4;$(SolutionDir)$(Platform)\$(Configuration)\</IncludePath>
+    <LibraryPath>$(SolutionDir)FMOD/lib/x64;$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)libs\PhysX\$(Platform)\$(Configuration)\;$(SolutionDir)\libs\JSON\$(Configuration);$(SolutionDir)\ORBIS_Debug;$(SCE_ORBIS_SAMPLE_DIR)\sample_code\graphics\api_gnm\toolkit;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <IncludePath>$(SolutionDir)FMOD/inc;$(SolutionDir)\Plugins\OpenGLRendering;$(SolutionDir)include\PhysX;$(SolutionDir)\Plugins\Networking-ENet\include;$(SolutionDir)\include\json;$(IncludePath);$(SCE_ORBIS_SDK_DIR)\host_tools\lib\clang\include;$(SCE_ORBIS_SDK_DIR)\target\include;$(SCE_ORBIS_SDK_DIR)\target\include_common</IncludePath>
+    <LibraryPath>$(SolutionDir)FMOD/lib/x64;$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)libs\PhysX\$(Platform)\$(Configuration)\;$(SolutionDir)\libs\JSON\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnableManifest>false</VcpkgEnableManifest>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINSOCKAPI_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Team7 Real Game\Dear ImGui\ImGui\backends;E:\Team7 Real Game\Dear ImGui\ImGui;C:\Dev\Spitoon\FMOD\inc</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link />
+    <Link>
+      <AdditionalDependencies>CSC8503Common.lib;Common.lib;OpenGLRendering.lib;Networking-ENet.lib;ws2_32.lib;Winmm.lib;fmodL_vc.lib;Ole32.lib;jsoncpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Dev\Spitoon\FMOD\lib\$(Arch);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_x64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML-2.5.1\include\;C:\Dev\Spitoon\FMOD\inc;$(SolutionDir)include/ASIO/include;$(SolutionDir)\UI\ImGui\backends;$(SolutionDir)\UI\ImGui</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-system.lib;sfml-window.lib;CSC8503Common.lib;Common.lib;OpenGLRendering.lib;Networking-ENet.lib;ws2_32.lib;Winmm.lib;fmodL_vc.lib;Ole32.lib;User32.lib;Gdi32.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXCooking_64.lib;jsoncpp.lib;UI.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML-2.5.1\lib;C:\Dev\Spitoon\FMOD\lib\$(Arch);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>CSC8503Common.lib;Common.lib;OpenGLRendering.lib;Networking-ENet.lib;ws2_32.lib;Winmm.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_x64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Dev\Spitoon\FMOD\inc;$(SolutionDir)include/ASIO/include;$(SolutionDir)\UI\ImGui\backends;$(SolutionDir)\UI\ImGui</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML-2.5.1\include\;C:\Dev\Spitoon\FMOD\inc;$(SolutionDir)\UI\ImGui\backends;$(SolutionDir)\UI\ImGui</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>CSC8503Common.lib;Common.lib;OpenGLRendering.lib;Networking-ENet.lib;ws2_32.lib;Winmm.lib;Ole32.lib;fmod_vc.lib;User32.lib;Gdi32.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXCooking_64.lib;jsoncpp.lib;UI.lib;glfw3.lib;opengl32.lib;sfml-graphics.lib;sfml-system.lib;sfml-window.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML-2.5.1\lib;C:\Dev\Spitoon\FMOD\lib\$(Arch);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Plugins\PlayStation\;C:\Dev\Spitoon\FMOD\inc;SFML-2.5.1\include\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_ORBIS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <CppLanguageStd>Cpp17</CppLanguageStd>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Dev\Spitoon\FMOD\lib\$(Arch);$(Solution_Dir)\ORBIS_Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Common.a;PlayStation4.a;CSC8503Common.a;libSceDbgVideoOut_stub_weak.a;libSceVideoOut_stub_weak.a;libSceGnm_debug.a;libSceGnmx_debug.a;libSceGpuAddress.a;libSceGnmDriver_stub_weak.a;libSceShaderBinary.a;libSceGnf_debug.a;libScePad_stub_weak.a;libSceUserService_stub_weak.a;libSceSysmodule_stub_weak.a;libSceNgs2_stub_weak.a;libSceAudioOut_stub_weak.a;-lSceAudio3d_stub_weak;toolkit_debug.a;$(GnmAdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ORBIS'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Dev\Spitoon\FMOD\inc;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Dev\Spitoon\FMOD\lib\$(Arch);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="CharacterController.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="common_platform.cpp" />
+    <ClCompile Include="CourseworkGame.cpp" />
+    <ClCompile Include="DebugMenu.cpp" />
+    <ClCompile Include="GamePushdownState.cpp" />
+    <ClCompile Include="GamePushDownState_UI.cpp" />
+    <ClCompile Include="GameTechRenderer.cpp" />
+    <ClCompile Include="JsonHandler.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="CharacterController.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="common_platform.h" />
+    <ClInclude Include="CourseworkGame.h" />
+    <ClInclude Include="DebugMenu.h" />
+    <ClInclude Include="GamePushdownState.h" />
+    <ClInclude Include="GamePushDownState_UI.h" />
+    <ClInclude Include="GameTechRenderer.h" />
+    <ClInclude Include="JsonHandler.h" />
+    <ClInclude Include="Network_Code.h" />
+    <ClInclude Include="Client_Net_Common.h" />
+    <ClInclude Include="PlayerObject.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

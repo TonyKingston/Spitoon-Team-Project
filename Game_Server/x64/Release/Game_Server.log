@@ -1,0 +1,33 @@
+﻿  Server_main.cpp
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Network_Code.h(132,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(59): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator <<<unsigned int>(NCL::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=unsigned int
+          ]
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(59): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator <<<unsigned int>(NCL::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=unsigned int
+          ]
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Network_Code.h(155,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(73): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator >><sPlayerDescription>(NCL::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=sPlayerDescription
+          ]
+C:\Users\tonyk\source\repos\Spitoon\Game_Server\Server_main.cpp(73): message : see reference to function template instantiation 'NCL::net::message<T> &NCL::net::operator >><sPlayerDescription>(NCL::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=GameMsg,
+              DataType=sPlayerDescription
+          ]
+  Generating code
+  47 of 2612 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Game_Server.vcxproj -> C:\Users\tonyk\source\repos\Spitoon\x64\Release\Game_Server.exe

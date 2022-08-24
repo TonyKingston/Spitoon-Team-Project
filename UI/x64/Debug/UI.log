@@ -1,0 +1,26 @@
+﻿  GUI.cpp
+  GameEndMenu.cpp
+C:\Users\tonyk\source\repos\Spitoon\UI\GameEndMenu.cpp(24,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\GameEndMenu.cpp(44,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\GameEndMenu.cpp(45,71): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\GameEndMenu.cpp(46,70): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\GameEndMenu.cpp(50,66): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\GameEndMenu.cpp(51,71): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\GameEndMenu.cpp(52,70): warning C4305: 'argument': truncation from 'double' to 'float'
+  ScoreMenu.cpp
+  StartMenu.cpp
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(28,70): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(29,74): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(30,73): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(35,70): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(36,74): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(37,73): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(42,69): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(43,74): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\StartMenu.cpp(44,73): warning C4305: 'argument': truncation from 'double' to 'float'
+  TimeMenu.cpp
+C:\Users\tonyk\source\repos\Spitoon\UI\TimeMenu.cpp(27,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\TimeMenu.cpp(28,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\tonyk\source\repos\Spitoon\UI\TimeMenu.cpp(29,49): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  UI.vcxproj -> C:\Users\tonyk\source\repos\Spitoon\x64\Debug\UI.lib

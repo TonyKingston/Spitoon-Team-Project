@@ -1,0 +1,22 @@
+{
+  "scale": {
+    "x": 20,
+    "y": 30,
+    "z": 10
+  },
+
+  "position": {
+    "x": 50,
+    "y": 50,
+    "z": 50
+  },
+
+  "radius": 0,
+
+  "HalfHeight": 0,
+
+  "type": "Cube",
+
+  "inverseMass": "10.5"
+
+}

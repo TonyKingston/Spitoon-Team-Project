@@ -1,0 +1,18 @@
+{
+	"HalfHeight" : 0.0,
+	"inverseMass" : "20.400000",
+	"position" : 
+	{
+		"x" : 50.0,
+		"y" : 100.0,
+		"z" : 50.0
+	},
+	"radius" : 0.0,
+	"scale" : 
+	{
+		"x" : 30.0,
+		"y" : 30.0,
+		"z" : 30.0
+	},
+	"type" : "Sphere"
+}

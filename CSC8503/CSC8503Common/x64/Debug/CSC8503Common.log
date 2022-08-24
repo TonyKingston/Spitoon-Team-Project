@@ -1,0 +1,131 @@
+﻿  Cleaner.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Cleaner.h(26,37): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLRenderer.h(29): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  GameObject.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLRenderer.h(29): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  GameServer.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\RigidBody.h(15): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  GameWorld.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\GameWorld.cpp(32,11): warning C4150: deletion of pointer to incomplete type 'NCL::CSC8503::Constraint'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\GameWorld.h(11): message : see declaration of 'NCL::CSC8503::Constraint'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\GameWorld.cpp(88,11): warning C4150: deletion of pointer to incomplete type 'NCL::CSC8503::Constraint'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\GameWorld.h(11): message : see declaration of 'NCL::CSC8503::Constraint'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\RigidBody.h(15): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  NavigationGrid.cpp
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\NavigationPath.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  NetworkObject.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\RigidBody.h(15): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  CollisionDetection.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLRenderer.h(29): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  PxSystem.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.cpp(188,83): warning C4267: 'argument': conversion from 'size_t' to 'physx::PxU32', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.cpp(308,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.cpp(313,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.cpp(317,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\Plugins\OpenGLRendering\OGLRenderer.h(29): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  RigidBody.cpp
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\PxSystem.h(99,24): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  SystemConfig.cpp
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\NCLVector4.h(49,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\Common\MeshMaterial.h(49,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\Types.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\SystemDefines.h(4,1): warning C4150: deletion of pointer to incomplete type 'NCL::MeshGeometry'; no destructor called
+C:\Users\tonyk\source\repos\Spitoon\CSC8503\CSC8503Common\Physics\RigidBody.h(15): message : see declaration of 'NCL::MeshGeometry'
+C:\Users\tonyk\source\repos\Spitoon\Common\ResourceManager.h(25): message : see reference to function template instantiation 'void DeleteMap<std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>>(M &)' being compiled
+          with
+          [
+              M=std::map<std::string,NCL::MeshGeometry *,std::less<std::string>,std::allocator<std::pair<const std::string,NCL::MeshGeometry *>>>
+          ]
+  Generating Code...
+  CSC8503Common.vcxproj -> C:\Users\tonyk\source\repos\Spitoon\x64\Debug\CSC8503Common.lib
